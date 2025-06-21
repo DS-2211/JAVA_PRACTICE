@@ -11,7 +11,6 @@ class Main {
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
-
             if (arr.length == 1) return arr[0];
 
 
