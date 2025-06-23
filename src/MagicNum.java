@@ -9,7 +9,7 @@ public class MagicNum {
             int x = (1<<i);
 
             if((pos & x) != 0){
-                res+= (int) Math.pow(5,i);
+                res+= ( int ) Math.pow(5,i);
             }
         }
         return res;
