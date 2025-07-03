@@ -85,7 +85,6 @@ public class ValidEmail {
                     (c >= 'a' && c <= 'z') ||
                     (c >= '0' && c <= '9');
         }
-
         // -----------------------------------------------------------------------
         // Demo harness -----------------------------------------------------------
         // -----------------------------------------------------------------------
@@ -101,7 +100,6 @@ public class ValidEmail {
                     "toolongtld@example.abcdefghijklm",
                     "good+tag@sub-domain.example.co"
             };
-
             for (String s : samples) {
                 System.out.printf("%-32s : %s%n", s, isValid(s));
             }
