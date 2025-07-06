@@ -14,7 +14,5 @@ public class BinarySearchRecursion {
             return binarySearch(arr,target,l,mid-1);
         else
             return binarySearch(arr,target,mid+1,h);
-
     }
-
 }
