@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class RemoveDup {
@@ -11,7 +10,6 @@ public class RemoveDup {
             }
             return i + 1;
         }
-
     public static void main(String[] args) {
         int[] arr = {1,2,2,3,3,3,4,4,5,5,5,6};
         System.out.println(Arrays.toString(arr));
